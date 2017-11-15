@@ -16,7 +16,8 @@
 
         public $nb_err = 0;
         public $nb_success = 0;
-        public $nb_col = 0;
+        public $nb_col = 0; 
+        public $temps = 0;
 
 
         public function __construct(){
@@ -93,8 +94,8 @@
                 $res['status'] = 2;
             }
             else{
-
-            } $res['status'] = 1;
+                $res['status'] = 1;
+            } 
 
             return $res;
         }
@@ -117,7 +118,7 @@
                 
                 foreach($this->_dbSystem->query($rq_test) as $row){
                     extract($row);
-                    $nb_success = 1;
+                    $nb_success = 2;
                 }
             }
 
@@ -126,6 +127,7 @@
 
 
         function start(){
+            $temps_start = time();
             file_put_contents('../files/logs.txt', ">> Lancement du script de changement de colonnes (".date('d/m/Y - H:i:s').") << \n \n");
             $txt_err = "";
             $rq_rename = "";
@@ -158,11 +160,14 @@
             
             $this->_dbConnect->exec($rq_rename);
             file_put_contents('../files/logs.txt', $txt_err, FILE_APPEND);
-            file_put_contents('../files/logs.txt', ">> Fin du script (".date('d/m/Y - H:i:s').") << \n \n", FILE_APPEND);
+            file_put_contents('../files/logs.txt', ">> Fin du script (".date('d/m/Y - H:i:s').") | Total: ".$this->nb_col." - Succès: ".$this->nb_success." - Erreurs: ".$this->nb_err." << \n \n", FILE_APPEND);
+            $temps_fin = time();
+            $this->temps = $temps_fin-$temps_start;
         }
 
 
         function reverse(){
+            $temps_start = time();
             file_put_contents('../files/logs.txt', ">> Lancement du script d'annulation (".date('d/m/Y - H:i:s').") << \n \n");
             $txt_err = "";
             $rq_rename = "";
@@ -195,7 +200,8 @@
             $this->_dbConnect->exec($rq_rename);
             file_put_contents('../files/logs.txt', $txt_err, FILE_APPEND);
         
-            file_put_contents('../files/logs.txt', ">> Fin du script (".date('d/m/Y - H:i:s').") << \n \n", FILE_APPEND);
-
+            file_put_contents('../files/logs.txt', ">> Fin du script (".date('d/m/Y - H:i:s').") | Total: ".$this->nb_col." - Succès: ".$this->nb_success." - Erreurs: ".$this->nb_err." << \n \n", FILE_APPEND);
+            $temps_fin = time();
+            $this->temps = $temps_fin-$temps_start;
         }
     }

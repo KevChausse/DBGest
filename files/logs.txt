@@ -1,0 +1,644 @@
+>> Lancement du script d'annulation (15/11/2017 - 10:29:41) << 
+ 
+Succes adr -> adresse dans la table dw_insee_adherents 
+ 
+-----------------------------------
+ 
+ 
+Succes montant -> amount dans la table bank_transferts 
+ 
+-----------------------------------
+ 
+ 
+Succes mail -> email dans la table directory 
+ 
+-----------------------------------
+ 
+ 
+Succes mail -> email dans la table dw_insee_adherents 
+ 
+-----------------------------------
+ 
+ 
+Succes prenom -> firstname dans la table dw_sor_users 
+ 
+-----------------------------------
+ 
+ 
+Succes prenom -> firstname dans la table users 
+ 
+-----------------------------------
+ 
+ 
+Succes fonction -> function dans la table users_employees 
+ 
+-----------------------------------
+ 
+ 
+Succes adh_id -> id_adh dans la table dw_sor_adh_groupe_in 
+ 
+-----------------------------------
+ 
+ 
+Succes contact_id -> id_contact dans la table dw_sor_transactions 
+ 
+-----------------------------------
+ 
+ 
+Succes dispositif_id -> id_dispositif dans la table dw_sor_finances 
+ 
+-----------------------------------
+ 
+ 
+Succes dispositif_id -> id_dispositif dans la table dw_sor_finances_types 
+ 
+-----------------------------------
+ 
+ 
+Succes dossier_id -> id_dossier dans la table dw_sor_controles_rib_details 
+ 
+-----------------------------------
+ 
+ 
+Succes dossier_id -> id_dossier dans la table dw_sor_dossiers 
+ 
+-----------------------------------
+ 
+ 
+Succes dossier_id -> id_dossier dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes dossier_stagiaire_id -> id_dossier_stagiaire dans la table dw_sor_dossiers 
+ 
+-----------------------------------
+ 
+ 
+Succes echeance_id -> id_echeance dans la table vv_reconciliations 
+ 
+-----------------------------------
+ 
+ 
+Succes entreprise_id -> id_entreprise dans la table dw_sor_adh_groupe_in 
+ 
+-----------------------------------
+ 
+ 
+Succes entreprise_id -> id_entreprise dans la table dw_sor_adh_synthese 
+ 
+-----------------------------------
+ 
+ 
+Succes entreprise_id -> id_entreprise dans la table dw_sor_adh_versements 
+ 
+-----------------------------------
+ 
+ 
+Succes entreprise_id -> id_entreprise dans la table dw_sor_adh_vv 
+ 
+-----------------------------------
+ 
+ 
+Succes entreprise_id -> id_entreprise dans la table dw_sor_dossiers 
+ 
+-----------------------------------
+ 
+ 
+Succes entreprise_id -> id_entreprise dans la table vv_default 
+ 
+-----------------------------------
+ 
+ 
+Succes etablissement_id -> id_etablissement dans la table bank_transferts 
+ 
+-----------------------------------
+ 
+ 
+Succes etablissement_id -> id_etablissement dans la table dw_sor_adh_synthese 
+ 
+-----------------------------------
+ 
+ 
+Succes etablissement_id -> id_etablissement dans la table dw_sor_adh_versements 
+ 
+-----------------------------------
+ 
+ 
+Succes etablissement_id -> id_etablissement dans la table dw_sor_adh_vv 
+ 
+-----------------------------------
+ 
+ 
+Succes etablissement_id -> id_etablissement dans la table dw_sor_dossiers 
+ 
+-----------------------------------
+ 
+ 
+Succes etablissement_id -> id_etablissement dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes etablissement_id -> id_etablissement dans la table vv_default 
+ 
+-----------------------------------
+ 
+ 
+Succes etablissement_id -> id_etablissement dans la table vv_reconciliations 
+ 
+-----------------------------------
+ 
+ 
+Succes facture_id -> id_facture dans la table dw_sor_controles_rib_details 
+ 
+-----------------------------------
+ 
+ 
+Succes facture_id -> id_facture dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes finance_id -> id_finance dans la table dw_sor_adh_synthese 
+ 
+-----------------------------------
+ 
+ 
+Succes followed_id -> id_followed dans la table followed_users 
+ 
+-----------------------------------
+ 
+ 
+Succes gf_id -> id_gf dans la table dw_sor_adh_synthese 
+ 
+-----------------------------------
+ 
+ 
+Succes group_id -> id_group dans la table vv_default 
+ 
+-----------------------------------
+ 
+ 
+Succes group_id -> id_group dans la table vv_group 
+ 
+-----------------------------------
+ 
+ 
+Succes group_id -> id_groupe dans la table dw_sor_adh_groupe_in 
+ 
+-----------------------------------
+ 
+ 
+Succes guh_id -> id_guh dans la table dw_sor_activites 
+ 
+-----------------------------------
+ 
+ 
+Succes guh_id -> id_guh dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes guh_id -> id_guh dans la table dw_sor_taches 
+ 
+-----------------------------------
+ 
+ 
+Succes help_id -> id_help dans la table help_url 
+ 
+-----------------------------------
+ 
+ 
+Succes help_id -> id_help dans la table reports_criteria 
+ 
+-----------------------------------
+ 
+ 
+Succes individu_etablissement_id -> id_individu_etablissement dans la table dw_sor_dossiers 
+ 
+-----------------------------------
+ 
+ 
+Succes individu_etablissement_id -> id_individu_etablissement dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes individu_id -> id_individu dans la table dw_sor_dossiers 
+ 
+-----------------------------------
+ 
+ 
+Succes individu_id -> id_individu dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes ldap_group_id -> id_ldap_group dans la table users 
+ 
+-----------------------------------
+ 
+ 
+Succes lot_id -> id_lot dans la table dw_sor_adh_vv 
+ 
+-----------------------------------
+ 
+ 
+Succes module_id -> id_module dans la table dw_sor_dossiers 
+ 
+-----------------------------------
+ 
+ 
+Succes module_id -> id_module dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes motif_id -> id_motif dans la table dw_sor_alertes 
+ 
+-----------------------------------
+ 
+ 
+Succes news_id -> id_news dans la table news_users 
+ 
+-----------------------------------
+ 
+ 
+Succes of_id -> id_of dans la table dw_sor_dossiers 
+ 
+-----------------------------------
+ 
+ 
+Succes org_ecole_id -> id_org_ecole dans la table tmp_ta 
+ 
+-----------------------------------
+ 
+ 
+Succes paiement_annulation_id -> id_paiement_annulation dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes ref_dw_sor_referentiel_id -> id_ref_dw_sor_referentiel dans la table sor_referentiel_data 
+ 
+-----------------------------------
+ 
+ 
+Succes ref_id -> id_ref dans la table dw_sor_referentiel 
+ 
+-----------------------------------
+ 
+ 
+Succes report_id -> id_report dans la table reports_criteria 
+ 
+-----------------------------------
+ 
+ 
+Succes report_id -> id_report dans la table reports_exports 
+ 
+-----------------------------------
+ 
+ 
+Succes report_id -> id_report dans la table reports_files 
+ 
+-----------------------------------
+ 
+ 
+Succes right_id -> id_right dans la table users_groups_rights 
+ 
+-----------------------------------
+ 
+ 
+Succes right_id -> id_right dans la table users_rights 
+ 
+-----------------------------------
+ 
+ 
+Succes save_id -> id_save dans la table saves_reports 
+ 
+-----------------------------------
+ 
+ 
+Succes save_id -> id_save dans la table saves_shares 
+ 
+-----------------------------------
+ 
+ 
+Succes section_id -> id_section dans la table vv_default 
+ 
+-----------------------------------
+ 
+ 
+Succes section_id -> id_section dans la table vv_settings 
+ 
+-----------------------------------
+ 
+ 
+Succes sor_contact_id -> id_sor_contact dans la table directory 
+ 
+-----------------------------------
+ 
+ 
+Succes sor_finance_id -> id_sor_finance dans la table dw_sor_finances 
+ 
+-----------------------------------
+ 
+ 
+Succes sor_finance_id -> id_sor_finance  dans la table dw_sor_finances_types 
+ 
+-----------------------------------
+ 
+ 
+Succes sor_guh_id -> id_sor_guh dans la table dw_sor_users_guh 
+ 
+-----------------------------------
+ 
+ 
+Succes sor_guh_id -> id_sor_guh dans la table users_groups_sor_guh 
+ 
+-----------------------------------
+ 
+ 
+Succes tache_id -> id_tache dans la table dw_sor_taches 
+ 
+-----------------------------------
+ 
+ 
+Succes type_finance_id -> id_type_finance dans la table dw_sor_adh_synthese 
+ 
+-----------------------------------
+ 
+ 
+Succes type_id -> id_type dans la table dw_sor_alertes 
+ 
+-----------------------------------
+ 
+ 
+Succes type_id -> id_type dans la table dw_sor_finances 
+ 
+-----------------------------------
+ 
+ 
+Succes type_id -> id_type dans la table dw_sor_transactions 
+ 
+-----------------------------------
+ 
+ 
+Succes type_id -> id_type dans la table sor_referentiel_data 
+ 
+-----------------------------------
+ 
+ 
+Succes user_chief_id -> id_user_chief dans la table users_employees 
+ 
+-----------------------------------
+ 
+ 
+Succes user_group_id -> id_user_group dans la table users_groups_in 
+ 
+-----------------------------------
+ 
+ 
+Succes user_group_id -> id_user_group dans la table users_groups_rights 
+ 
+-----------------------------------
+ 
+ 
+Succes user_group_id -> id_user_group dans la table users_groups_sor_guh 
+ 
+-----------------------------------
+ 
+ 
+Succes user_sor_id -> id_user_sor dans la table dw_sor_activites 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table directory_favorites 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table dw_sor_activites 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table dw_sor_controles_droits 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table dw_sor_controles_rib_details 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table dw_sor_controles_rib 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table dw_sor_users 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table dw_sor_users_guh 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table followed_users 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table news_users 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table saves 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table saves_shares 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table users_employees 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table users_groups_in 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table users_logs 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table users_phones 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table users_rights 
+ 
+-----------------------------------
+ 
+ 
+Succes user_id -> id_user dans la table users_settings 
+ 
+-----------------------------------
+ 
+ 
+Succes versement_id -> id_versement dans la table dw_sor_adh_vv 
+ 
+-----------------------------------
+ 
+ 
+Succes versement_id -> id_versement dans la table vv_reconciliations 
+ 
+-----------------------------------
+ 
+ 
+Succes volet_id -> id_volet dans la table dw_sor_finances 
+ 
+-----------------------------------
+ 
+ 
+Succes volet_id -> id_volet dans la table dw_sor_finances_types 
+ 
+-----------------------------------
+ 
+ 
+Succes vv_sor_id -> id_vv_sor dans la table vv_reconciliations 
+ 
+-----------------------------------
+ 
+ 
+Succes vv_id -> id_vv dans la table vv_echeances 
+ 
+-----------------------------------
+ 
+ 
+Succes vv_id -> id_vv dans la table vv_reconciliations 
+ 
+-----------------------------------
+ 
+ 
+Succes entreprise_id -> identreprise dans la table dw_sor_adherents 
+ 
+-----------------------------------
+ 
+ 
+Succes entreprise_id -> identreprise dans la table dw_sor_of 
+ 
+-----------------------------------
+ 
+ 
+Succes nom -> lastname dans la table dw_sor_users 
+ 
+-----------------------------------
+ 
+ 
+Succes nom -> lastname dans la table users 
+ 
+-----------------------------------
+ 
+ 
+Succes avoir_mnt_ht -> avoir_montant_ht dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes fin_mnt_ht -> fin_montant_ht dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes mnt_ht -> montant_ht dans la table dw_sor_adh_versements 
+ 
+-----------------------------------
+ 
+ 
+Succes mnt_ht -> montant_ht dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes avoir_mnt_ttc -> avoir_montant_ttc dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes fin_mnt_ttc -> fin_montant_ttc dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes mnt_ttc -> montant_ttc dans la table dw_sor_adh_versements 
+ 
+-----------------------------------
+ 
+ 
+Succes mnt_ttc -> montant_ttc dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes fin_mnt_regle_ht -> fin_montant_regle_ht dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes fin_mnt_regle_ttc -> fin_montant_regle_ttc dans la table dw_sor_factures 
+ 
+-----------------------------------
+ 
+ 
+Succes mnt -> montant dans la table dw_sor_activites 
+ 
+-----------------------------------
+ 
+ 
+Succes telephone_fixe -> telf dans la table directory 
+ 
+-----------------------------------
+ 
+ 
+Succes telephone_portable -> telp dans la table directory 
+ 
+-----------------------------------
+ 
+ 
+Succes telephone -> tel dans la table dw_sor_adherents 
+ 
+-----------------------------------
+ 
+ 
+Succes telephone -> tel dans la table dw_sor_of 
+ 
+-----------------------------------
+ 
+ 
+Succes telephone -> tel dans la table dw_sor_tiers 
+ 
+-----------------------------------
+ 
+ 
+Succes motif -> wording dans la table bank_transferts 
+ 
+-----------------------------------
+ 
+ 
+>> Fin du script (15/11/2017 - 10:29:46) | Total: 128 - Succès: 128 - Erreurs: 0 << 
+ 

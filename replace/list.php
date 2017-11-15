@@ -38,9 +38,19 @@
                     }
                     else echo "<tr class=\"success\">";
                     echo "    <td><b>#".($i+1)."</b></td>";
-                    echo "    <td>".$tab[$i]['table']."</td>";
-                    echo "    <td>".$tab[$i]['old_name']."</td>";
-                    echo "    <td>".$tab[$i]['new_name']."</td>";
+                    echo "    <td><i>".$tab[$i]['table']."</i></td>";
+                    if($res==1){
+                        echo "    <td><i>".$tab[$i]['old_name']."</i></td>";
+                    }
+                    else {
+                        echo "    <td>".$tab[$i]['old_name']."</td>";
+                    }
+                    if($res==2){
+                        echo "    <td><i>".$tab[$i]['new_name']."</i></td>";
+                    }
+                    else {
+                        echo "    <td>".$tab[$i]['new_name']."</td>";
+                    }
                     echo "</tr>";
                 }
 ?>

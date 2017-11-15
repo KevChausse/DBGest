@@ -16,6 +16,7 @@
     $nb_col = $replace->nb_col;
     $nb_err = $replace->nb_err;
     $nb_success = $replace->nb_success;
+    $temps_exec = $replace->temps;
 ?>
 
 
@@ -31,6 +32,7 @@
                 <p>
 <?php 
     echo "Traitement terminé : ".$nb_col." colonnes a modifier / ".$nb_success." colonnes modifiees / ".$nb_err." erreur(s). <br/> \n";
+    echo "Durée de l'execution : ".$temps_exec." secondes<br/> \n";
 ?> 
                 </p><a href="replace.php" type="button" class="btn btn-primary btn-block">Retour</a><br/>
                 
